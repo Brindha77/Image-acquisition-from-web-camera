@@ -34,7 +34,7 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ### Register No: 212222230023
 
 ## i) Write the frame as JPG file
-
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while(True):
@@ -43,10 +43,10 @@ while(True):
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
+```
 
 ## ii) Display the video
-
+```
 import numpy as np
 import cv2
 
@@ -59,13 +59,12 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
+```
 
 
 ## iii) Display the video by resizing the window
 
-
+```
 import numpy as np
 import cv2
 
@@ -88,12 +87,12 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 
 
 ## iv) Rotate and display the video
-
+```
 import numpy as np
 import cv2
 
@@ -117,7 +116,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 
 
